@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Robot&display=swap');
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
+.App {
+  text-align: center;
+}
+label{
+  font-size: .7rem;
+}
+
+input.form-control, input.form-control:focus{
+  background: #f0f0ff;
+}
+
+.error
+{
+  position: absolute;
+  color: red;
+  font-size: .6rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  height: 40px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 50px;
+
+  float: right;
+}
+
+.form1{
+  width: 600px;
+  height: 500px;
+  background-color: aqua;
+  margin: 40px 90px;
+
+}
+
+.form1 h1
+{
+  margin-left:  150px;
+  margin-top:  50px;
+}
+
+.input1
+{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.input1 input
+{
+  width: 400px;
+  height: 40px;
+}
+
+.nn1
+{
+  font-size: 15px;
+}
+
+.btn1 button
+{
+  width: 100px;
+}
+
+.input2 input
+{
+  width: 400px;
+  height: 40px;
+}
+
+.input2
+{
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.btn1
+{
+  margin-left: 140px;
+  margin-top: 40px;
+}
+
+.tab
+{
+   width: 700px;
+   margin-left: 700px;
+   margin-top: -460px;
+
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  color: lightgray;
+}
+
+.mg
+{
+  background-color: yellow;
+  width: 400px;
+  height: 500px;
+  margin-top: 10px;
+}
+.tt
+{
+  text-align:  center;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.left
+{
+  margin-left: 520px;
+  margin-top: -250px;
+}
+.btn
+{
+   margin-left: 20px;
+}
+.tr
+{
+  width: 500px;
+  height: 400px;
+  background-color: beige;
+  border: 1px solid black;
+  margin-left: 40%;
+}
+
+.tr h3
+{
+  margin-top: 35px;
+  margin-left: 60px;
+}
+
+.quantity
+{
+  margin-left: 50;
+  background-color: rgb(31, 36, 38);
+  width: 300px;
+  height: 30px;
+}
+.tp
+{
+  margin-left: 50px;
+  font-size: 20px;
+  width: 100px;
+  margin-right: 5px;
+  background-color: white;
+}
+.tp1
+{
+  margin-left: 50px;
+  font-size: 20px;
+  width: 100px;
+  margin-left: 5px;
+  background-color: white;
+}
+
+
+.quantity_input
+{
+  width: 30px;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.sel
+{
+  width: 100px;
+  margin-left: 30px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

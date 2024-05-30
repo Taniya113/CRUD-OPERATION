@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "jyoti11",
+      "email": "jyoti@gmail.com",
+      "mobile": 6978346756,
+      "password": "jyoti123"
+    },
+    {
+      "id": 2,
+      "name": "taniya",
+      "email": "taniya@gmail.com",
+      "mobile": 6978346756,
+      "password": "taniya123"
+    },
+    {
+      "id": 3,
+      "name": "tanu",
+      "email": "tanu@gmail.com",
+      "mobile": 6978346756,
+      "password": "tanu123"
+    },
+    {
+      "id": 4,
+      "name": "abhi",
+      "email": "abhi@gmail.com",
+      "mobile": 6978346756,
+      "password": "abhi123"
+    }
+
+
+  ],
+  "comments": [
+    {
+      "img": "Images/taniya.jpeg",
+      "id": "6b6a"
+    }
+  ]
+}
